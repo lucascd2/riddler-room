@@ -6,7 +6,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`riddler.nkplab.com`) && PathPrefix(`/r/gRAHvpQGCUsx`)
+    - match: Host(`riddler.nkplab.com`) && PathPrefix(`/r/Ag0Qc1VUtEWq`)
       kind: Rule
       services:
         - name: funhouse-room-room18
@@ -23,4 +23,4 @@ metadata:
 spec:
   stripPrefix:
     prefixes:
-      - /r/gRAHvpQGCUsx
+      - /r/Ag0Qc1VUtEWq
